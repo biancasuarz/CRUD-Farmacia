@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
+import com.generation.farmaciashalom.model.Categoria;
 import com.generation.farmaciashalom.model.Produto;
 import com.generation.farmaciashalom.repository.ProdutoRepository;
 
@@ -40,6 +41,11 @@ public class ProdutoController {
 	public ResponseEntity<Produto> getById(@PathVariable Long id) {
 		return produtoRepository.findById(id).map(resposta -> ResponseEntity.ok(resposta))
 				.orElse(ResponseEntity.status(HttpStatus.NOT_FOUND).build());
+	}
+
+	@GetMapping("/nome/{nome}")
+	public ResponseEntity<List<Categoria>> getByNome(@PathVariable String nome) {
+		return ResponseEntity.ok(produtoRepository.findAllByNomeContainingIgnoreCase(nome));
 	}
 
 	@GetMapping("/descricao/{descricao}")

@@ -1,5 +1,6 @@
 package com.generation.farmaciashalom.repository;
 
+import com.generation.farmaciashalom.model.Categoria;
 import com.generation.farmaciashalom.model.Produto;
 
 import java.util.List;
@@ -12,4 +13,7 @@ import org.springframework.stereotype.Repository;
 public interface ProdutoRepository extends JpaRepository<Produto, Long> {
 
 	public List<Produto> findAllByDescricaoContainingIgnoreCase(@Param("descricao") String descricao);
+
+	public List<Categoria> findAllByNomeContainingIgnoreCase(@Param("nome") String nome);
+
 }

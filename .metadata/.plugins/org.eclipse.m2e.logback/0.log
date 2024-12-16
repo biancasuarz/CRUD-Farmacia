@@ -111,3 +111,10 @@
 2024-12-16 14:41:56,985 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-12-16 14:41:56,993 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-12-16 14:41:56,998 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\USER\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\FarmaciaCRUD\farmaciashalom\src\test\resources
+2024-12-16 14:47:05,307 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-16 14:47:05,319 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-16 14:47:05,344 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\USER\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\FarmaciaCRUD\farmaciashalom\src\test\resources
+2024-12-16 14:52:36,984 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-16 14:52:36,996 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-16 14:52:37,004 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\USER\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\FarmaciaCRUD\farmaciashalom\src\test\resources
+2024-12-16 14:53:36,975 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
