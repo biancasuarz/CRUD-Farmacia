@@ -1,5 +1,7 @@
 package com.generation.farmaciashalom.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 
@@ -16,6 +18,10 @@ public class Categoria {
 
 	@NotNull(message = "O atributo descrição é obrigatório!")
 	private String descricao;
+
+	@ManyToOne
+	@JsonIgnoreProperties("categoria")
+	private Produto produto;
 
 	public Long getId() {
 		return id;
@@ -39,6 +45,14 @@ public class Categoria {
 
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
+	}
+
+	public Produto getProduto() {
+		return produto;
+	}
+
+	public void setProduto(Produto produto) {
+		this.produto = produto;
 	}
 
 }
