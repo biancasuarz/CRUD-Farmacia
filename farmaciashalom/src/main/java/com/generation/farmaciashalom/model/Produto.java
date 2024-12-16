@@ -29,7 +29,6 @@ public class Produto {
 	@NotNull(message = "O atributo descrição é obrigatório!")
 	private String descricao;
 
-	@NotNull(message = "O atributo preço é obrigatório!")
 	@Positive(message = "O preço deve ser um valor positivo!")
 	private Double preco;
 
