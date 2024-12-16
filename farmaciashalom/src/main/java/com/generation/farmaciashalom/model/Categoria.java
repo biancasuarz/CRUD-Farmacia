@@ -4,18 +4,18 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 
 @Entity
-@Table(name = "tb_categoria")
+@Table(name = "tb_categorias")
 public class Categoria {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    
-    @NotNull(message = "O atributo nome é obrigatório!")
-    private String nome;
-    
-    @NotNull(message = "O atributo descrição é obrigatório!")
-    private String descricao;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+
+	@NotNull(message = "O atributo nome é obrigatório!")
+	private String nome;
+
+	@NotNull(message = "O atributo descrição é obrigatório!")
+	private String descricao;
 
 	public Long getId() {
 		return id;
@@ -40,8 +40,5 @@ public class Categoria {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-    
-    
-    
-}
 
+}
