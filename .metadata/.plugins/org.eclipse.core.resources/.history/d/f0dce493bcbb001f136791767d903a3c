@@ -1,0 +1,5 @@
+package com.generation.farmaciashalom.model;
+
+public class Categoria {
+
+}
