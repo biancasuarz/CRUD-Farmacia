@@ -1,0 +1,2 @@
+INDEX VERSION 1.134+C:\Users\USER\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\FarmaciaCRUD\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
